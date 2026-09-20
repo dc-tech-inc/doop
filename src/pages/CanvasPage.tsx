@@ -431,7 +431,7 @@ export function CanvasPage({ canvasId }: { canvasId: string }) {
               )}
             >
               {pendingProposal && mutedProposal !== pendingProposal.id && !(showActivity && panelTab === 'memory') && (
-                <div className="flex items-center rounded-[10px] border border-brand bg-white shadow-card">
+                <div className="flex items-center rounded-[10px] border border-brand bg-surface shadow-card">
                   <Button
                     variant="bare"
                     className="py-[9px] pl-3.5 pr-1 text-[12.5px] font-bold text-accent-ink hover:bg-transparent hover:text-accent-ink"
