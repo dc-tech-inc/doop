@@ -979,7 +979,7 @@ function ImportModal({
                 id="import-url"
                 variant="mono"
                 inputSize="lg"
-                className="bg-paper focus:border-ink focus:bg-white focus:ring-0"
+                className="bg-paper focus:border-ink focus:bg-surface focus:ring-0"
                 autoFocus
                 placeholder="https://example.com"
                 value={url}
